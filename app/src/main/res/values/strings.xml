@@ -1,0 +1,37 @@
+<resources>
+
+    <!-- A -->
+    <string name="app_name">Simple Recorder</string>
+    <string name="archive_name">Nome do Arquivo</string>
+
+    <!-- L -->
+
+    <string name="last_modified">Última Modificação</string>
+
+    <!-- M -->
+
+    <string name="media_player">Media Player</string>
+    <string name="msg_alerta_permissao">Para utilizar este aplicativo, você precisa aceitar as permissões.</string>
+
+    <!-- N -->
+
+    <string name="now_playing">Reproduzindo agora</string>
+
+    <!-- O -->
+
+    <string name="ok">OK</string>
+
+    <!-- P -->
+
+    <string name="playing">Reproduzindo</string>
+    <string name="paused">Pausado</string>
+
+    <!-- R -->
+
+    <string name="recording_txt">Gravando: </string>
+
+    <!-- S -->
+
+    <string name="start_record_text">Toque no microfone\npara começar a gravar</string>
+
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/recFrag">
+
+    <fragment
+        android:id="@+id/recFrag"
+        android:name="br.com.adrianojunior.simplerecorder.fragments.RecFrag"
+        android:label="fragment_rec"
+        tools:layout="@layout/fragment_rec" >
+        <action
+            android:id="@+id/action_recFrag_to_tracksListFrag"
+            app:destination="@id/tracksListFrag"
+            app:exitAnim="@anim/fade_out"
+            app:enterAnim="@anim/slide_in"
+
+            app:popEnterAnim="@anim/fade_in"
+            app:popExitAnim="@anim/slide_out"/>
+    </fragment>
+    <fragment
+        android:id="@+id/tracksListFrag"
+        android:name="br.com.adrianojunior.simplerecorder.fragments.TracksListFrag"
+        android:label="fragment_tracks_list"
+        tools:layout="@layout/fragment_tracks_list" />
+</navigation>
