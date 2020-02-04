@@ -8,6 +8,7 @@ Here you'll see an example of Material Navigation and Material Design Components
 If you have any doubts or suggestion contact me on Telegram: https://t.me/AndroidDev_Adriano.
 
 
+__________________________________________________________________________________________________________________________________________
 
 
 Este é o código fonte de um aplicativo simples de gravação de áudio com um player integrado com barra de busca/progresso para retroceder ou avançar na tela de reprodução de áudio.
